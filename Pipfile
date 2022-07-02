@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-debug-toolbar = "*"
+mysqlclient = "*"
+djangorestframework = "*"
+psycopg2 = "*"
+drf-nested-routers = "*"
+django-filter = "*"
+
+[dev-packages]
+autopep8 = "*"
+
+[requires]
+python_version = "*"
